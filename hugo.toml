@@ -2,3 +2,7 @@ baseURL = 'https://chrissals.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Autoboys page'
 theme = "hugo-theme-monochrome"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
